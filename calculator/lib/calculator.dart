@@ -45,9 +45,7 @@ class _calculatorState extends State<BlackCalculator> {
       } else if (operator == "-") {
         answer = number1 - number2;
       } else if (operator == "/") {
-        if (number2 == 0) {
-          number2 = 1;
-        }
+      
         answer = (number1 / number2) as int;
       } else if (operator == "*") {
         answer = number1 * number2;
